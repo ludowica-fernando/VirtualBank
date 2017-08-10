@@ -1,0 +1,118 @@
+*{
+    font-family: Arial;
+    margin: 0;
+}
+
+.containerd {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.containerd a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+
+
+div.container {
+    width: 100%;
+    /*    border: 1px solid gray;*/
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+
+
+label{
+    display:inline-block;
+    width:170px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+
+
+input[type=text], select {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    border-radius: 2px; 
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+input[type=password], select {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    border-radius: 2px; 
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #4d90fe;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #357ae8;
+}
+
+
+div.form{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 200px;  
+}
+
+.formmodal-container {
+    padding: 100px;
+    max-width: 300px;
+    width: 100% !important;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    font-family: roboto;
+}
